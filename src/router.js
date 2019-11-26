@@ -12,11 +12,11 @@ const router = new Router({
     routes: [
         {
             path: "*",
-            redirect: "/Page1"
+            redirect: "/Home"
           },
           {
             path: "/",
-            redirect: "/Page1"
+            redirect: "/Home"
           },
           {
             path: "/Home",
